@@ -124,8 +124,12 @@ float f(float x){
 
 float veloc(float x){ //na equacao eh o nosso C
     float valor;
-
-       valor = 1.0;
+	if(x>1.0) valor = 2.0;
+       	else valor = 1.0;
+       //testem com o seguinte valor
+	   //if(x>1.0) valor = 0.8;
+  	   //else valor = 1.0;
+	
 
 return valor;
 }
